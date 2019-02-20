@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "INFO_EMAIL=timothyhaydenhawkins@gmail.com INFO_EMAIL_PASSWORD=99Apple% node index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tim Hawkins",
