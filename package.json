@@ -1,0 +1,17 @@
+{
+  "name": "reboot-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "INFO_EMAIL=timothyhaydenhawkins@gmail.com INFO_EMAIL_PASSWORD=99Apple% node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tim Hawkins",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemailer": "^5.1.1",
+    "nodemon": "^1.18.10"
+  }
+}

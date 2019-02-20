@@ -1,0 +1,65 @@
+a {
+	color: #2489ed;
+}
+a:hover, 
+a:focus {
+	color: #2489ed;
+}
+.spinner .path {
+  stroke: #2489ed;
+}
+#main-nav ul li a:hover, 
+#main-nav ul li a:focus, 
+#main-nav ul li.active a {
+	color: #2489ed;
+}
+.title-box:after, .section-title:after {
+	background: #2489ed;	
+}
+.news-category { 
+	background: #2489ed;	
+}
+.news-box h4 a:hover {
+	color: #2489ed;	
+}
+.contact-col a:hover {
+	color: #2489ed;	
+}
+.btn {
+	background: #2489ed;
+}
+.filters-row span:hover {
+	color:#2489ed;
+	border-color: #2489ed;
+}
+.filters-row span.active {
+	background: #2489ed;
+	border-color: #2489ed;
+}
+.tag-btn {
+	color:#2489ed;
+}
+.tag-btn:hover, .tag-btn:focus {
+	background: #2489ed;
+	border-color: #2489ed;
+}
+.blockquote-custom i {
+	color: #2489ed;	
+}
+.hr-primary:after {
+	background: #2489ed;	
+}
+.comment-by .reply {
+	color: #2489ed;
+}
+.comment-by .reply:hover {
+	background: #2489ed;
+	border-color: #2489ed;
+}
+
+@media only screen and (min-width: 768px) {
+	.onepage #main-nav ul li a:hover, 
+	.onepage #main-nav ul li.active a {
+		color: #2489ed;
+	}	
+}

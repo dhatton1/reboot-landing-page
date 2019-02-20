@@ -1,0 +1,65 @@
+a {
+	color: #c91caa;
+}
+a:hover, 
+a:focus {
+	color: #c91caa;
+}
+.spinner .path {
+  stroke: #c91caa;
+}
+#main-nav ul li a:hover, 
+#main-nav ul li a:focus, 
+#main-nav ul li.active a {
+	color: #c91caa;
+}
+.title-box:after, .section-title:after {
+	background: #c91caa;	
+}
+.news-category { 
+	background: #c91caa;	
+}
+.news-box h4 a:hover {
+	color: #c91caa;	
+}
+.contact-col a:hover {
+	color: #c91caa;	
+}
+.btn {
+	background: #c91caa;
+}
+.filters-row span:hover {
+	color:#c91caa;
+	border-color: #c91caa;
+}
+.filters-row span.active {
+	background: #c91caa;
+	border-color: #c91caa;
+}
+.tag-btn {
+	color:#c91caa;
+}
+.tag-btn:hover, .tag-btn:focus {
+	background: #c91caa;
+	border-color: #c91caa;
+}
+.blockquote-custom i {
+	color: #c91caa;	
+}
+.hr-primary:after {
+	background: #c91caa;	
+}
+.comment-by .reply {
+	color: #c91caa;
+}
+.comment-by .reply:hover {
+	background: #c91caa;
+	border-color: #c91caa;
+}
+
+@media only screen and (min-width: 768px) {
+	.onepage #main-nav ul li a:hover, 
+	.onepage #main-nav ul li.active a {
+		color: #c91caa;
+	}	
+}
