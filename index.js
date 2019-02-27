@@ -27,17 +27,21 @@ app.get('/launch-startup', (req, res) => {
   res.sendFile(path.join(__dirname+'/views/project-details.html'));
 });
 
+app.get('/apply', (req, res) => {
+  res.sendFile(path.join(__dirname+'/views/apply.html'));
+});
+
 app.get('/contact', (req, res) => {
   res.sendFile(path.join(__dirname+'/views/contact.html'));
 });
 
 app.get('/news', (req, res) => {
   res.sendFile(path.join(__dirname+'/views/news.html'));
-})
+});
 
 app.get('/about', (req, res) => {
   res.sendFile(path.join(__dirname+'/views/about.html'));
-})
+});
 
 app.post('/sendMail', (req, res) => {
   sendEmail(req.body);

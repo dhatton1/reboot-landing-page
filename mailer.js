@@ -14,7 +14,10 @@ async function sendEmail(data){
     }
   });
 
-  const messageContent = `<p>LinkedIn Account: ${data.linkedin}.</p><p>What do you want from re:boot? ${data.whatDoYouWant}</p><p>Where do you want to be after re:boot? ${data.whereDoYouWantToBe}</p>`;
+  const messageContent = `<p>Name: ${data.name}\n</p>
+    <p>Email: ${data.email}\n</p>
+    <p>Phone: ${data.phone}\n</p>
+    <p>LinkedIn Account: ${data.linkedin}.</p>`;
 
   // setup email data with unicode symbols
   let mailOptions = {
